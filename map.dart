@@ -28,5 +28,15 @@ main(){
   mapName['conditoin']= false;
 
   
-  print(mapName);
+  print(mapName.isEmpty);
+    print(mapName.containsKey('city'));
+      print(mapName.values);
+        print(mapName.keys);
+          print(mapName.isNotEmpty);
+            print(mapName.length);
+        print(mapName.containsValue('true'));
+        print(mapName.remove('Year'));
+                print(mapName);
+        
+        
 }
